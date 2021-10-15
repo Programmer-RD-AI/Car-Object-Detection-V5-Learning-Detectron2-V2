@@ -1,0 +1,41 @@
+2021-10-15 23:02:20,182 INFO    MainThread:488599 [wandb_init.py:_log_setup():307] Logging user logs to wandb/run-20211015_230220-3ex4zl8p/logs/debug.log
+2021-10-15 23:02:20,182 INFO    MainThread:488599 [wandb_init.py:_log_setup():308] Logging internal logs to wandb/run-20211015_230220-3ex4zl8p/logs/debug-internal.log
+2021-10-15 23:02:20,182 INFO    MainThread:488599 [wandb_setup.py:_flush():68] enabling code saving by default
+2021-10-15 23:02:20,183 INFO    MainThread:488599 [wandb_setup.py:_flush():68] setting env: {}
+2021-10-15 23:02:20,183 INFO    MainThread:488599 [wandb_setup.py:_flush():68] multiprocessing start_methods=fork,spawn,forkserver
+2021-10-15 23:02:20,183 WARNING MainThread:488599 [wandb_setup.py:_flush():68] Ignoring settings passed to wandb.setup() which has already been configured.
+2021-10-15 23:02:20,183 INFO    MainThread:488599 [wandb_setup.py:_flush():68] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f4ad58ec340>
+2021-10-15 23:02:20,218 WARNING MainThread:488599 [wandb_setup.py:__init__():213] Ignoring settings passed to wandb.setup() which has already been configured.
+2021-10-15 23:02:22,714 INFO    MainThread:488599 [wandb_run.py:_console_start():1103] atexit reg
+2021-10-15 23:02:22,715 INFO    MainThread:488599 [wandb_run.py:_redirect():978] redirect: SettingsConsole.WRAP
+2021-10-15 23:02:22,715 INFO    MainThread:488599 [wandb_run.py:_redirect():1009] Wrapping output streams.
+2021-10-15 23:02:22,715 INFO    MainThread:488599 [wandb_run.py:_redirect():1025] Redirects installed.
+2021-10-15 23:02:44,914 INFO    MainThread:488599 [wandb_init.py:_pause_backend():229] pausing backend
+2021-10-15 23:03:48,604 INFO    MainThread:488599 [wandb_run.py:_atexit_cleanup():1081] got exitcode: 0
+2021-10-15 23:03:48,610 INFO    MainThread:488599 [wandb_run.py:_restore():1053] restore
+2021-10-15 23:03:48,616 INFO    MainThread:488599 [wandb_run.py:_wait_for_finish():1185] got exit ret: uuid: "dffbec62a9344c8a929d7148a52f823a"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 620
+      total_bytes: 620
+    }
+  }
+}
+
+2021-10-15 23:03:50,620 INFO    MainThread:488599 [wandb_run.py:_wait_for_finish():1185] got exit ret: uuid: "9069e1d140734e7da7c2c21ddeb20438"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 29190
+      total_bytes: 29190
+    }
+  }
+}
+
